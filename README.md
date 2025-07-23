@@ -56,9 +56,10 @@ where `N` is the total number of states (`2^n`) and `M` is the number of target 
 To run this project, you'll need Python 3. It's highly recommended to use a virtual environment to manage dependencies.
 
 1.  **Clone the repository and navigate to the project directory:**
+
     ```bash
-    git clone [https://your-repository-url.git](https://your-repository-url.git)
-    cd your-project-directory
+    git clone https://github.com/qvazarius648/grovers-search-algorithm.git
+    cd grovers-search-algorithm
     ```
 
 2.  **Create and activate a virtual environment (optional but recommended):**
