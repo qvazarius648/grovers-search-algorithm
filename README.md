@@ -2,7 +2,7 @@
 
 A clean, well-documented Python implementation of Grover's search algorithm using Qiskit. This project demonstrates how to efficiently find one or more marked items in an unstructured quantum database, showcasing a fundamental quantum advantage.
 
-![Grover Search Results](images\result_plot.png)
+![Grover Search Results](images/result_plot.png)
 
 ## Key Features
 
