@@ -53,20 +53,30 @@ where `N` is the total number of states (`2^n`) and `M` is the number of target 
 
 ## Installation & Requirements
 
-To run this project, you'll need Python 3 and the following libraries. It's recommended to set up a virtual environment.
+To run this project, you'll need Python 3. It's highly recommended to use a virtual environment to manage dependencies.
 
-1.  Create a `requirements.txt` file with the following content:
-    ```txt
-    qiskit>=1.0.0
-    qiskit-aer
-    matplotlib
-    numpy
+1.  **Clone the repository and navigate to the project directory:**
+    ```bash
+    git clone [https://your-repository-url.git](https://your-repository-url.git)
+    cd your-project-directory
     ```
 
-2.  Install the dependencies:
+2.  **Create and activate a virtual environment (optional but recommended):**
+    ```bash
+    # For Unix/macOS
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # For Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+3.  **Install the required dependencies from the `requirements.txt` file:**
     ```bash
     pip install -r requirements.txt
     ```
+
 
 ---
 
