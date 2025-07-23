@@ -82,24 +82,38 @@ To run this project, you'll need Python 3. It's highly recommended to use a virt
 
 ## Usage
 
-The script is ready to run out of the box.
+This project is structured as a Jupyter Notebook (`.ipynb`) file, which allows for interactive execution and visualization of each step.
 
-1.  To execute the search, simply run the Python script from your terminal:
+1.  **Start Jupyter Notebook or JupyterLab:**
+    After installing the requirements and activating your environment, launch Jupyter from your terminal:
     ```bash
-    python your_script_name.py
-    ```
+    # For the classic Notebook interface
+    jupyter notebook
 
-2.  To search for different states, modify the `target_keys` list inside the `main()` function at the bottom of the script:
+    # Or for the more modern JupyterLab interface
+    jupyter lab
+    ```
+    This will open a new tab in your web browser showing the file explorer.
+
+2.  **Open and Run the Notebook:**
+    Navigate to the project directory in the Jupyter interface and click on the `groverssearch.ipynb` file to open it.
+
+3.  **Execute the Code:**
+    You can run the entire notebook by selecting "Cell" -> "Run All" from the menu bar. Alternatively, you can execute each cell individually by selecting it and pressing `Shift + Enter`.
+
+4.  **Modify the Search:**
+    To search for different states, locate the main execution cell at the bottom of the notebook and modify the `target_keys` list directly:
     ```python
-    def main():
-        # Define the states to find
-        target_keys = ['101', '010'] # Example: searching for two 3-qubit states
-        
-        # ... rest of the code
+    # In the final code cell:
+    
+    # Define the states to find
+    target_keys = ['101', '010'] # Change these values to your desired targets
+    
+    # ... rest of the code
     ```
+    After changing the list, simply re-run that cell and the subsequent ones to see the new results.
 
-The script will automatically calculate the required number of qubits and optimal iterations based on your input.
-
+    
 ---
 
 ## License
